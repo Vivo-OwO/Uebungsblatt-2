@@ -10,7 +10,7 @@ public class P3_main
            System.out.println("A");
            else if (i < k)
            System.out.println("B");
-           else
+           else if (j < k);
            System.out.println("C");
 
     }
