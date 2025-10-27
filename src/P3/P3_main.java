@@ -1,19 +1,21 @@
 package P3;
-public class P3_main
-{
-	public static void main(String[] args)
-	{
-           int i = 2;
-           int j = 4;
-           int k = 10;
-           if (i < j)
-           System.out.println("A");
-           else if (i < k)
-           System.out.println("B");
-           else if (j < k);
-           System.out.println("C");
-
+public class P3_main {
+    public static void main(String[] args) {
+        int i = 1;
+        int j = 2;
+        int k = 3;
+        {
+            if (i < j)
+                System.out.println("A");
+        }
+        {
+            if (i < k)
+                System.out.println("B");
+        }
+        {
+            if (j < k) ;
+            System.out.println("C");
+        }
     }
 }
-
 
