@@ -7,14 +7,12 @@ public class P3_main
            int j = 4;
            int k = 10;
            if (i < j)
-           System.out.println("A"); {
-    }
-           if (i < k) {
+           System.out.println("A");
+           else if (i < k)
            System.out.println("B");
-           }
-           if (j <k) {
+           else
            System.out.println("C");
-           }
+
     }
 }
 
