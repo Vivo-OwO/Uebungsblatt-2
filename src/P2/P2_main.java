@@ -7,7 +7,6 @@ int i =18;
     if (i > 10) {
         b = true;
     }
-    System.out.println ("i = " +i);
-    System.out.println ("b = " +b);
+    System.out.println (b);
     }
 }
